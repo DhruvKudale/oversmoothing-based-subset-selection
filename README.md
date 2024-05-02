@@ -32,7 +32,7 @@ Embeddings are stored in the ```notebooks/embeddings/``` folder which are the em
 
 ### Results
 
-# Machine Learning Model Performance Comparison
+#### Results on Rotten Tomatoes
 
 | Model               | Precision | Recall | F1 Score | Accuracy |
 |---------------------|-----------|--------|----------|----------|
@@ -43,4 +43,16 @@ Embeddings are stored in the ```notebooks/embeddings/``` folder which are the em
 | Random + FFN        | 0.84      | 0.84   | 0.84     | 0.84     |
 | Fac Loc + FFN       | 0.85      | 0.85   | 0.85     | 0.85     |
 | Ours (75%)          | 0.85      | 0.85   | 0.85     | 0.85     |
+
+#### Results on OLID Dataset
+
+| Model               | Precision | Recall | F1 Score | Macro F1 |
+|---------------------|-----------|--------|----------|----------|
+| SVM                 | 0.76      | 0.78   | 0.76     | 0.69     |
+| BiLSTM              | 0.82      | 0.82   | 0.81     | 0.75     |
+| CNN                 | 0.82      | 0.82   | 0.81     | 0.80     |
+| Random + FFN        | 0.79      | 0.80   | 0.80     | 0.74     |
+| Fac Loc + FFN       | 0.80      | 0.81   | 0.80     | 0.75     |
+| Ours (75%)          | 0.81      | 0.82   | 0.80     | 0.75     |
+
 
