@@ -32,3 +32,15 @@ Embeddings are stored in the ```notebooks/embeddings/``` folder which are the em
 
 ### Results
 
+# Machine Learning Model Performance Comparison
+
+| Model               | Precision | Recall | F1 Score | Accuracy |
+|---------------------|-----------|--------|----------|----------|
+| SVM                 | 0.76      | 0.83   | 0.79     | 0.76     |
+| Logistic Classifier | 0.77      | 0.81   | 0.79     | 0.76     |
+| Naive Bayes         | 0.76      | 0.82   | 0.78     | 0.76     |
+| BERT                | 0.83      | 0.83   | 0.83     | 0.83     |
+| Random + FFN        | 0.84      | 0.84   | 0.84     | 0.84     |
+| Fac Loc + FFN       | 0.85      | 0.85   | 0.85     | 0.85     |
+| Ours (75%)          | 0.85      | 0.85   | 0.85     | 0.85     |
+
