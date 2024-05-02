@@ -2,3 +2,5 @@ torch
 sentence_transformers
 datasets
 tqdm
+pandas
+numpy
